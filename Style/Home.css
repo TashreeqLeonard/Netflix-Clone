@@ -130,8 +130,9 @@ h2{
     object-fit: contain;
     height: 150px;
     margin-right: 10px;
-    transition: transfrom 450ms;
+    transition: transform 450ms;
     margin-top: 35px;
+    transition: 1s;
 }
 #move{
     margin-left: 75px;
@@ -184,7 +185,7 @@ h2{
     background-color: white;
     color: black;
 }
-#bell{
+#play{
     margin-right: 10px;
 }
 #info{
@@ -192,4 +193,11 @@ h2{
 }
 #info:hover{
     background-color: black;
+}
+.image:hover{
+    height: 160px;
+    margin-top: 25px;
+}
+#circle{
+    margin-right: 10px;
 }
